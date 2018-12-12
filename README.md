@@ -1,6 +1,7 @@
 # urlRewriter
 Take url from stdin, search it in redirect list and answer ERR or OK to stdout
-краткое описание содержимого:
+
+Краткое описание содержимого:
 
 project  - каталог с проектом urlRewriter, созданным в
 		Eclipse IDE for C/C++ Developers Version: 2018-09 (4.9.0) Build id: 20180917-1800
@@ -19,8 +20,7 @@ tester.py - скрипт для более полного тестировани
 testFileInputJson.py - скрипт для проверки файла input.json
 
 
-
-последовательность запуска:
+Последовательность запуска:
 
 1 В Eclipse выбрать File - Open Projects from File System . Импортировать каталог project, при необходимости Build All. Скопировать скомпилированное приложение urlRewriter в каталог result.
 
@@ -36,4 +36,4 @@ testFileInputJson.py - скрипт для проверки файла input.jso
 
 7 Запустив python3 tester.py можно провести более полное тестирование с проверкой ответов и любыми другими тестами, которые прийдут в голову.
 
-
+Конец
